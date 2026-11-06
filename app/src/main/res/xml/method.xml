@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.adyghe.keyboard.ui.settings.SettingsActivity"
+    android:supportsSwitchingToNextInputMethod="true">
+
+    <!-- Primary: Latin-based ADIǴE (Turkish-Q style) -->
+    <subtype
+        android:label="@string/subtype_label_adyghe_latin_1"
+        android:languageTag="ady"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:subtypeExtraValue="languageTag=ady;layout=adyghe_latin_1" />
+
+    <!-- Latin-based ADIǴE (US-QWERTY + pop-ups) -->
+    <subtype
+        android:label="@string/subtype_label_adyghe_latin"
+        android:languageTag="ady"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:subtypeExtraValue="languageTag=ady;layout=adyghe_latin" />
+
+    <!-- Cyrillic-based Adyghe -->
+    <subtype
+        android:label="@string/subtype_label_adyghe_cyrillic"
+        android:languageTag="ady-Cyrl"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="false"
+        android:subtypeExtraValue="languageTag=ady-Cyrl;layout=adyghe_cyrillic" />
+
+    <!-- Arabic -->
+    <subtype
+        android:label="@string/subtype_label_arabic"
+        android:languageTag="ar"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="false"
+        android:subtypeExtraValue="languageTag=ar;layout=arabic" />
+
+    <!-- Hebrew -->
+    <subtype
+        android:label="@string/subtype_label_hebrew"
+        android:languageTag="he"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="false"
+        android:subtypeExtraValue="languageTag=he;layout=hebrew" />
+
+    <!-- English (US) -->
+    <subtype
+        android:label="@string/subtype_label_english"
+        android:languageTag="en-US"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:subtypeExtraValue="languageTag=en-US;layout=english_us" />
+
+    <!-- Turkish -->
+    <subtype
+        android:label="@string/subtype_label_turkish"
+        android:languageTag="tr"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:subtypeExtraValue="languageTag=tr;layout=turkish" />
+
+    <!-- Russian -->
+    <subtype
+        android:label="@string/subtype_label_russian"
+        android:languageTag="ru"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="false"
+        android:subtypeExtraValue="languageTag=ru;layout=russian" />
+
+</input-method>

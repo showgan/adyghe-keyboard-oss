@@ -1,0 +1,31 @@
+# Auto-detect text files; normalize line endings on commit
+* text=auto
+
+# Shell / Gradle scripts
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Source
+*.kt text
+*.kts text
+*.java text
+*.xml text
+*.properties text
+*.md text
+*.pro text
+*.gradle text
+
+# Binary
+*.jar binary
+*.apk binary
+*.aab binary
+*.so binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
